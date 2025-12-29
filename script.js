@@ -22,3 +22,11 @@ search.addEventListener("input", () => {
 });
 
 show(data);
+function copyPrompt(id) {
+  const text = document.getElementById(id);
+  text.select();
+  text.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(text.value);
+
+  alert("✅ Prompt Copied!");
+}
