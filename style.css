@@ -47,7 +47,11 @@ textarea {
   padding: 10px;
   margin-top: 10px;
 }
-
+.prompt-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
 button {
   margin-top: 10px;
   background: #2563eb;
